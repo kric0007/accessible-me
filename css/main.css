@@ -1,3 +1,15 @@
+.skip-link {
+  list-style: none;
+}
+
+.skip-link a {
+  position: absolute;
+  top: -3em;
+}
+
+.skip-link a:focus {
+  top: 0;
+}
 body {
   font-family: 'Roboto', Helvetica, sans-serif;
   background-color: lightgray;
